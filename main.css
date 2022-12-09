@@ -128,17 +128,12 @@ footer{
     width: 24vw;
  }
 
- /* .content{
-    grid-area: content;
-    width: 100%;
-} */
-
 .cards{
     row-gap: 3rem;
     margin-top: 5rem;
 }
 
-.shit{
+.maincontent{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -150,7 +145,6 @@ footer{
     position: relative;
     width: 100%;
     height: 24rem;
-    /* margin: 0 2.25rem;  */
     overflow: hidden;
     display: flex;
     justify-content: space-around; 
@@ -162,9 +156,6 @@ footer{
     height: 20rem;
     background-size: cover;
     background-position:left;
-    /* position: absolute;
-    left: 32%;
-    top: 1rem; */
     grid-area: pizza;
 }
 
@@ -173,9 +164,6 @@ footer{
     height: 20rem;
     background-size: cover;
     background-position: center;
-    /* position: absolute;
-    left: 55%;
-    top: 1rem; */
     grid-area: soup;
 }
 
@@ -184,17 +172,12 @@ footer{
     height: 20rem;
     background-size: cover;
     background-position: right;
-    /* position: absolute;
-    left: 78%;
-    top: 1rem; */
     grid-area: fish;
 }
 
 .sidetext{
  position: absolute;
    left: 3rem; 
-
-
    font-size: 4rem;
     justify-content: flex-start;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -211,8 +194,6 @@ footer{
     font-size: 2rem;
      position: absolute;
      text-align: center;
-    /* left: 35.5%;
-    top: 5rem; */
 } 
 
 .seasonal{
@@ -224,8 +205,6 @@ footer{
  height: 10rem;
  font-size: 2rem;
  position: absolute;
- /* left: 58.5%;
- top: 5rem; */ 
 }
 
 .meatfish{
@@ -237,8 +216,6 @@ footer{
  height: 10rem;
  font-size: 2rem;
  position: absolute;
- /* left: 80%;
- top: 5rem; */ 
 }
 
 .helplogo{
@@ -279,16 +256,8 @@ animation-fill-mode: backwards;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: absolute;
-    left: 18rem;
-    top: 3rem; */
   }
 
-  /* .icon {
-    height: 10vh;
-    width: 20vh;
-    margin: 10px;
-  } */
 
   .recipes {
     display: flex;
@@ -296,7 +265,6 @@ animation-fill-mode: backwards;
     justify-content: space-evenly;
     justify-content: space-around;
     margin: 1%;
-    /* margin-left: 6rem; */
   }
 
   .secondpizza img
@@ -556,7 +524,6 @@ margin: 0 auto;
 }
 
 #exDate{
-    /* border-left: none; */
     border-radius: 0;
 }
 

@@ -14,11 +14,15 @@ const errorMesssage = document.getElementById("errorMessage")
 
 
 
-
-let hasOrderDetails = false;
 let hasOrderButton = false;
 hideOrderDetails();
 showOrderButton();
+
+let hasOrderDetails = true;
+showOrderDetails();
+
+let hasEmailAdress = false;
+hidePayButton();
 
 
 
@@ -34,7 +38,6 @@ orderDetails.addEventListener("click", function() {
     if (!hasOrderDetails) {
     hasOrderDetails = false;
     showOrderButton();
-    hideOrderDetails();
    }
 })
 
@@ -77,17 +80,16 @@ function showOrderButton() {
 //  }
 // }
 
-// function checkoutPage() {
-// PayButton.addEventListener("click", checkInput)
-// }
+function checkoutPage() {
+PayButton.addEventListener("click", checkInput)
+}
 
-// function hidePayButton() {
-//     PayButton.hidden = true;
-// }
+ function hidePayButton() {
+   PayButton.hidden = true; }
 
-// function showPayButton() {
-//     PayButton.hidden = false;
-// }
+function showPayButton() {
+   PayButton.hidden = false;
+}
 
 // function hideEmailAdress() {
 //     emailAdress.hidden = true;
