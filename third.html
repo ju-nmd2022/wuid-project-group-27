@@ -14,11 +14,10 @@
             <nav class="topnav">
             <ul class="navbar">
                 <li> <img class="logo" src="images/logga.png" alt="Receptbolaget logo"><a href="second.html" class="backbutton">Back to the previous page</a></li>
-                 <li> <a href="">My account</a></li> 
+                 <li> <a href="index.html">Home</a></li> 
                  <li><a href="">Recipes</a></li>
-                 <li><a href="">Our packages</a></li>
-                 <li><a href="">Inspiration and ideas</a></li>
-                 <li><a href="">How does it work?</a></li>
+                 <li><a href="">Packages</a></li>
+                 <li><a href="">Inspiration</a></li>
                  <li> <img class="helplogo" src="images/help.png" alt="help logo">
           </nav>
 
@@ -28,11 +27,13 @@
           
 
           <div class="title"> 
-            <h1 class="title">Vegetarian pizza with mushrooms and olives</h1>
+            <h1 class="titletext">Vegetarian pizza with mushrooms and olives</h1>
+            <h1 class="smallertitle">Vegetarian pizza with mushrooms and olives</h1>
             <h6 class="desc-text">If you’re having a drinking night with your friends and 
-                you’re in charge for the food, or if your parents in-law <br/>are coming over for a friday dinner, this pizza is the perfect solution for most ocassions. By adding this recipe to <br/>your package and ordering  the ingredients directly through us, making pizza has never been easier, and <br/>easy cooking is enjoyable cooking.</h6>
-            <div class="howbox">
-                <h2>How to make it</h2>
+                you’re in charge for the food, or if your parents in-law <br/>are coming over for a friday dinner, this pizza is the perfect solution for most ocassions. By adding this recipe to <br/>your package and ordering  the ingredients directly through us, making pizza has never been easier,
+                 and <br/>easy cooking is enjoyable cooking.</h6></div>
+            <div class="needbox">
+                <h2>What you'll need</h2>
                 <h4>1 lorem impsum </br>
                     3/4 </br>
                     4 </br>
@@ -44,8 +45,8 @@
                     Being creative and customizing it to your likings will always get the best result!</h4>
             </div>
 
-            <div class="needbox">
-                <h2>What you'll need</h2>
+            <div class="howbox">
+                <h2>How to make it</h2>
                 <h4>Step 1: </br>
                 </br>
                     Step 2: </br>
@@ -71,6 +72,19 @@
                     Order here!
                 </h2>
             </div>
+
+            <div>
+                <h2 class="smallneedbox">
+                    What you'll need & how to make it
+                </h2>
+            </div>
+
+            <!-- <div>
+                <h2 class="smallhowbox">
+                    How to make it
+                </h2>
+            </div> -->
+
                 <div id="orderDetails">
 
                     <h1 class="orderText">Order details</h1>
@@ -106,6 +120,8 @@
                         <input type="text" placeholder="Zip Code" id="zipCode"/>
                     </div>
                     </form>
+
+                    <div id="errorMessage"></div>
             
                     <div class="totalPay">
                         <h2 class="payButton">Total:</h2>
@@ -126,7 +142,7 @@
             <p >Similar recipes you might like:</p> 
         </div>
 
-    <div class="suggestions">
+    <div class="suggestions"> <p class="smalltext">Similar recipies you might like:</p>
          <div class="calzone">
             <a href=""><img class="calzone" src="images/calzone.png" alt="calzone"></a>
             <h5>Cheesy Calzone</h5>
