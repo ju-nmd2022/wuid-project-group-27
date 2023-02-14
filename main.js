@@ -18,13 +18,6 @@ let hasOrderButton = false;
 hideOrderDetails();
 showOrderButton();
 
-let hasOrderDetails = true;
-showOrderDetails();
-
-let hasEmailAdress = false;
-hidePayButton();
-
-
 
 orderButton.addEventListener("click", function() {
     if (!hasOrderButton) {
@@ -65,20 +58,6 @@ function showOrderButton() {
     orderButton.hidden = false;
 }
 
-// document.querySelectorAll("payButton").forEach(item => {
-//     item.addEventListener("click", PayButton => {
-//         recipe = item.value
-//     })
-// })
-
-// function checkInput() {
-//  if (emailAdress.value == "" || number.value == "" || exDate.value == "" || cvc.value == "" || 
-//  cardHolder.value == "" || street.value == "" || city.value == "" || zipCode.value == "" || cvc.value == "" ) {
-// errorMesssage.innerHTML = "bajs"
-//  }else{
-//     errorMesssage.innerHTML = ""
-//  }
-// }
 
 function checkoutPage() {
 PayButton.addEventListener("click", checkInput)
@@ -90,21 +69,6 @@ PayButton.addEventListener("click", checkInput)
 function showPayButton() {
    PayButton.hidden = false;
 }
-
-// function hideEmailAdress() {
-//     emailAdress.hidden = true;
-// }
-
-// function showEmailAdress() {
-//     emailAdress.hidden = false;
-// }
-
-// emailAdress.addEventListener("click", function() {
-// if (!hasEmailAdress) {
-//     showPayButton();
-//     showOrderDetails();
-// }
-// }
 
 
 

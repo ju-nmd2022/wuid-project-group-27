@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="complementary.css" />
+    <script src="main.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+
+    <main class="container">
+        <nav class="topnav">
+        <ul class="navbar">
+            <li> <img class="logo" src="images/logga.png" alt="Receptbolaget logo"></li>
+             <li> <a href="index.html">Home</a></li> 
+             <li><a href="">Recipes</a></li>
+             <li><a href="">Packages</a></li>
+             <li><a href="">Inspiration</a></li>
+             <li> <img class="helplogo" src="images/help.png" alt="help logo">
+      </nav>
+
+      <div class="content">
+        <img class="sideimage" src="images/secondpizza.jpeg" alt="pizza">
+        <img class="fireplace" src="images/fire.png" alt="fireplace">
+
+        <div> 
+            <div class="titletext"><h1>Vegetarian pizza with mushrooms and olives</h1></div>
+            <div class="desc-text"><h5> If you’re having a drinking night with your friends and 
+                you’re in charge for the food, or if your parents in-law <br/>are coming over for a friday dinner, this pizza is the perfect solution for most ocassions. By adding this recipe to <br/>your package and ordering  the ingredients directly through us, making pizza has never been easier,
+                 and <br/>easy cooking is enjoyable cooking.</h6></div>
+            </div>
+
+            <main id="guide"> 
+                <div class="needbox">
+               <h2>What you'll need</h2>
+               <h4>5 cups of flour</br>
+                   3/4 cups of baking soda </br>
+                   4 cups of water </br>
+                   2 packs of sliced mushroom </br>
+                   15-20 Olives </br>
+                   1/2 Bag of arugula</br>
+               </br>
+                   Additional toppings of your own choice can of course be added as well! 
+                   </h4></div>
+
+    
+
+                    <div id="order">
+                        <h2 class="orderbutton">
+                            Order here!
+                        </h2>
+                    </div>
+        
+
+                     <div class="suggestions"> 
+                        <div class="calzone">
+                         
+
+                           <a href=""><img class="calzone" src="images/calzone.png" alt="calzone"></a>
+                           <h5>Cheesy Calzone</h5>
+                       </div>
+                          
+                       <div class="bruschetta">
+                           <a href=""> <img class="bruschetta" src="images/bruschetta.png" alt="bruschetta"></a>
+                           <h5>Bruschetta</h5>
+                       </div>
+                        
+                       <div class="hummus">
+                           <a href=""><img class="hummus" src="images/hummus.png" alt="hummus"></a>
+                           <h5>Spicy hummus</h5>
+                       </div>
+               
+                       <div class="arrow">
+                          <a href=""><img class="arrow" src="images/morearrow.png" alt="More"> </a>
+                       </div>
+
+
+
+                       <div id="orderDetails">
+
+                        <h1 class="orderText">Order details</h1>
+                        <p class="infoText">
+                            Complete your order by filling in your payment details
+                        </p>
+                        <form action="submit">
+                            <label for="emailAdress">Email Adress</label>
+                        <input
+                           type="email"
+                           placeholder="joannasmith@hotmail.com"
+                           id="emailAdress"
+                           />
+                
+                        <label for="cardNumber">Card Number</label>
+                        <div class="cardNumber">
+                          <input type="text" placeholder="Card Number" id="number" />
+                          <input type="text" placeholder="MM/YY" id="exDate" />
+                          <input type="text" placeholder="CVC" id="cvc" />
+                        </div>
+                
+                        <label for="cardHolder">Card Holder</label>
+                          <input
+                             type="text"
+                             placeholder="First And Last Name"
+                             id="cardHolder"
+                             />
+                
+                        <label for="billingAdress">Billing Adress</label>
+                        <div class="billingAdress">
+                            <input type="text" placeholder="Street" id="street"/>
+                            <input type="text" placeholder="City" id="city"/>  
+                            <input type="text" placeholder="Zip Code" id="zipCode"/>
+                        </div>
+                        </form>
+    
+                        <div id="errorMessage"></div>
+                
+                        <div class="totalPay">
+                            <h2 class="payButton">Total:</h2>
+                            <h2 id="totalPrice" class="totalPaymentEuro">€18</h2>
+                        </div>
+                        <a id="payButton" href="summary.html">
+                            <button type="button" class="pay">
+                                <p id="payTotalPrice">Pay €18</p>
+                            </button></a>
+                 </div>
+               
+                </div>
+          </main>
+
+        </main>
+  </body>
+</html>

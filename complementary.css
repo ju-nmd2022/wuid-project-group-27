@@ -1,0 +1,411 @@
+.topnav {
+  /* position: fixed; */
+  background-color: white;
+  border: 10px solid white;
+  width: 100%;
+  height: 6.5rem;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  margin-top: -4rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: large;
+}
+
+ul {
+  height: 8rem;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  text-decoration-line: none;
+}
+
+a {
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* height: 8vh; */
+  width: 20vw;
+  padding: 0;
+  position: relative;
+  left: -6vw;
+  top: 0.8rem;
+}
+
+.backbutton {
+  position: absolute;
+  top: 3rem;
+  left: 1.2rem;
+  font-size: small;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.helplogo {
+  position: relative;
+  height: 18vw;
+  height: 8vh;
+  top: 0.2rem;
+}
+
+.sideimage {
+  display: flex;
+  background-position: left;
+  background-size: cover;
+  width: 30%;
+  height: 30%;
+  margin-top: 2%;
+}
+
+.fireplace {
+  display: flex;
+  background-position: left;
+  background-size: cover;
+  width: 20%;
+  height: 20%;
+  margin-top: -14%;
+  margin-left: 18%;
+}
+
+.titletext {
+  display: flex;
+  background-position: right;
+  margin-left: 35%;
+  margin-top: -35%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+.desc-text {
+  display: flex;
+  background-position: right;
+  margin-left: 40%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+h1 {
+  font-size: 4vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h5 {
+  font-size: 1.5vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.needbox {
+  background-color: rgb(202, 237, 186, 0.8);
+  width: 35%;
+  height: 60vh;
+  margin-left: 40%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+h2 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: 100;
+  text-align: left;
+  word-spacing: 2%;
+}
+
+h4 {
+  display: flex;
+  font-size: 0.5cm;
+  font-weight: 200;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#guide {
+  position: relative;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestions {
+  display: flex;
+  position: relative;
+  margin-top: 30%;
+}
+
+.calzone {
+  width: 14vw;
+  margin: 2%;
+  margin-left: 2%;
+}
+
+.bruschetta {
+  width: 14.5vw;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+
+.hummus {
+  width: 13.5vw;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+.arrow {
+  width: 14.5vw;
+  margin: 2%;
+}
+
+.orderbutton {
+  display: flex;
+  margin-top: -25%;
+  margin-left: 4%;
+  width: 20%;
+  height: 10vh;
+  background-color: rgb(241, 180, 89, 0.8);
+  text-align: center;
+  font-size: 0.8cm;
+}
+
+footer {
+  display: flex;
+  position: relative;
+  background-color: rgb(241, 180, 89, 0.4);
+  height: 10vh;
+  width: 100%;
+  bottom: -30%;
+}
+
+.payment {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: calc(47rem + 23rem + 1rem);
+  width: 100%;
+  height: 100vh;
+  margin-top: 1rem;
+  column-gap: 2rem;
+}
+
+#orderDetails {
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(241, 180, 89);
+  box-shadow: 0 0 18px rgba(0, 0, 0);
+  border-radius: 3rem;
+  width: 100rem;
+  max-width: 100%;
+  width: 60vw;
+  height: 42rem;
+  bottom: 200%;
+  right: 20%;
+}
+
+#orderDetails form {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 1rem;
+  row-gap: 0.5rem;
+  margin: 0 auto;
+}
+
+#orderDetails input {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 2rem;
+  border-radius: 1px solid #bbbbbb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+#orderDetails h1 {
+  position: absolute;
+  top: 2rem;
+  font-size: 0.6cm;
+  left: 1.8rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.infoText {
+  font-size: 0.4cm;
+}
+
+#orderDetails label {
+  margin-top: 0.6rem;
+}
+
+#orderDetails .billingadress input {
+  border: none;
+}
+
+.cardNumber {
+  display: grid;
+  grid-template-columns: 1fr 5rem 5rem;
+}
+
+#number {
+  border-right: none;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#exDate {
+  border-radius: 0;
+}
+
+#cvc {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: none;
+}
+
+.billingadress {
+  border: 1px solid #bbbbbb;
+  border-radius: 0.5rem;
+  width: 100%;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  height: 4rem;
+  row-gap: 0rem;
+}
+
+#street {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-bottom: 1px solid #bbbbbb;
+  border-radius: 0;
+}
+
+#city {
+  border-right: 1px solid #bbbbbb;
+  border-radius: 0;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#zipCode {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.infoText {
+  margin-left: 10.5rem;
+  font-size: 0.7cm;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#payButton {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+
+#finishPage {
+  width: 40vw;
+  height: 40vw;
+  background-color: hotpink;
+}
+
+#wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 100%;
+  height: 100vh;
+  background-color: #f1b459;
+}
+
+.payButton h2 {
+  font-size: 20rem;
+}
+
+#payTotalPrice {
+  display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  h4 {
+    font-size: 0.4cm;
+  }
+
+  #orderDetails {
+    height: 46rem;
+  }
+
+  .topnav {
+    width: 100%;
+  }
+
+  ul {
+    height: 8rem;
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .helplogo {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .needbox {
+    width: 60%;
+    height: 40vh;
+  }
+  #orderDetails {
+    position: absolute;
+    bottom: 100%;
+    left: 0.5%;
+  }
+}
