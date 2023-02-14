@@ -1,5 +1,4 @@
 .topnav {
-  /* position: fixed; */
   background-color: white;
   border: 10px solid white;
   width: 100%;
@@ -43,7 +42,6 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  /* height: 8vh; */
   width: 20vw;
   padding: 0;
   position: relative;
