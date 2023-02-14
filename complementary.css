@@ -403,7 +403,7 @@ footer {
   }
   #orderDetails {
     position: absolute;
-    bottom: 100%;
+    bottom: 90%;
     left: 0.5%;
   }
 }
