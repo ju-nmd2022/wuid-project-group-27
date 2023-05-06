@@ -609,24 +609,41 @@ h1 {
     text-align: start;
   }
 
-  .secondpizza img {
+  .secondpizza img,
+  .secondpizza h3 {
     width: 15vw;
+    position: relative;
+    left: 2rem;
   }
 
-  .pasta img {
+  .pasta img,
+  .pasta h3 {
     width: 15vw;
+    position: relative;
+    left: 6rem;
   }
 
-  .salad img {
+  .salad img,
+  .salad h3 {
     width: 15vw;
+    position: relative;
+    left: 10rem;
   }
 
-  .lasagna img {
+  .lasagna img,
+  .lasagna h3 {
     width: 15vw;
+    position: relative;
+    bottom: -12rem;
+    left: -12rem;
   }
 
-  .bread img {
+  .bread img,
+  .bread h3 {
     width: 15vw;
+    position: relative;
+    bottom: -12rem;
+    right: 5rem;
   }
 
   h3 {
@@ -634,8 +651,7 @@ h1 {
   }
 
   h6 {
-    font-size: x-small;
-    font-weight: 100;
+    display: none;
   }
 
   .homeButton {
